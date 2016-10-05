@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var model = {
     catlist:[
-      {name:'cat1',url:'img/captain.JPG'},
+      {name:'cat1',url:'img/captain.jpg'},
       {name:'cat2',url:'img/captain-head.jpg'},
       {name:'cat3',url:'img/lying.jpg'},
       {name:'cat4',url:'img/undercover.jpg'},
