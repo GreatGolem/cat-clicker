@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <h1>CAT CLICKER!</h1>
+  <ul class='cat-list'></ul>
+  <div class='cat-area'>
+    <h1 class='cat-name'></h1>
+    <img class='cat-img' src="" alt="cat picture" width=50%>
+    <h2>
+      <span>You have clicked </span>
+      <span class='cat-count'></span>
+      <span> times!</span>
+    </h2>
+    <button type='button' id='admin-button'>Admin</button>
+    <div class='edit-area'>
+      <div>
+        <span>Name</span>
+        <textarea id="edit-name" cols="10" rows="1"></textarea>
+      </div>
+      <div>
+        <span>URL</span>
+        <textarea id="edit-url" cols="10" rows="2"></textarea>
+      </div>
+      <div>
+        <span>Count</span>
+        <textarea id="edit-count" cols="10" rows="1"></textarea>
+      </div>
+      <button type='button' id='cancel-button'>Cancel</button>
+      <button type='button' id='save-button'>Save</button>
+    </div>
+  </div>
+</body>
+</html>
